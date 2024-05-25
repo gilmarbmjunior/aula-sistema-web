@@ -1,0 +1,42 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* estilo da fonte */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(150deg, rgba(0, 175, 239, 0.3), rgba(52, 102, 173, 0.3), rgb(88, 62, 149, 0.3));
+}
+
+input {
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid rgb(0, 107, 230);
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 72, 0);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    padding: 8px;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(150deg, rgba(0, 175, 239), rgba(52, 102, 173), rgb(88, 62, 149));
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(150deg, rgb(0, 147, 201), rgb(40, 79, 133), rgb(70, 49, 119));
+}
